@@ -37,6 +37,7 @@ public class TipTaxTotal {
     }
 
     public static void output() {
+        System.out.println(Motto.getMotto());
         oCharge = dollarAmt.format(iCharge);
         oTip = dollarAmt.format(cTip);
         oTax = dollarAmt.format(cTax);
